@@ -1,22 +1,26 @@
 <template>
   <div>
-    <div v-html="htmlContent"></div>
+    <my-markdown></my-markdown>
   </div>
 </template>
 
 <script>
+import myMarkdown from "../assets/resume.md";
+// import marked from "marked";
+
 export default {
-  name: "",
+  name: "Resume",
   props: {},
   data() {
     return {
-      htmlContent: "",
+      // resume: require("../assets/resume.md"),
+      // readme: this.md2html(resume),
     };
   },
-  components: {},
+  components: { myMarkdown },
   methods: {},
   mounted() {
-    this.htmlContent = this.$converter.makeHtml("../assets/resume.md");
+    // this.htmlContent = this.$converter.makeHtml(resume);
   },
   computed: {},
   watch: {},

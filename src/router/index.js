@@ -34,6 +34,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "dialog" */ "../views/dialog.vue"),
   },
+  {
+    path: "/resume",
+    name: "resume",
+    component: () =>
+      import(/* webpackChunkName: "resume" */ "../views/resume.vue"),
+  },
 ];
 
 const router = new VueRouter({
