@@ -1,27 +1,23 @@
 <template>
-  <div>
+  <div class="markdown-body">
     <my-markdown></my-markdown>
+    <!-- <div id="content"></div> -->
+    <!-- <v-md-preview :text="text"></v-md-preview> -->
   </div>
 </template>
 
 <script>
 import myMarkdown from "../assets/resume.md";
-// import marked from "marked";
 
 export default {
   name: "Resume",
   props: {},
   data() {
-    return {
-      // resume: require("../assets/resume.md"),
-      // readme: this.md2html(resume),
-    };
+    return {};
   },
   components: { myMarkdown },
   methods: {},
-  mounted() {
-    // this.htmlContent = this.$converter.makeHtml(resume);
-  },
+  mounted() {},
   computed: {},
   watch: {},
 };

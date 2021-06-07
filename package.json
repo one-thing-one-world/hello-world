@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.15.1",
+    "github-markdown-css": "^4.0.0",
     "http-server": "^0.12.3",
     "showdown": "^1.9.1",
     "vue": "^2.6.11",

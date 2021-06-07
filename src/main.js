@@ -7,6 +7,8 @@ import showdown from "showdown";
 Vue.config.productionTip = false;
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
+import "github-markdown-css/github-markdown.css";
+
 Vue.prototype.$converter = new showdown.Converter();
 
 Vue.use(ElementUI);
