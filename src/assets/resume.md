@@ -3,6 +3,7 @@
 * 姓名：刘俊才
 * 电话：18227137395
 * 邮箱：1769031928@qq.com	
+* github: https://github.com/one-thing-one-world
 ---
 # 求职状态
 * 期望地区：成都
