@@ -4,6 +4,7 @@
 * 电话: 18227137395
 * 邮箱: 1769031928@qq.com	
 * github: https://github.com/one-thing-one-world
+* 电子简历： https://bar-navy.vercel.app/
 ---
 # 求职状态
 * 期望地区：成都
