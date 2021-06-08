@@ -22,13 +22,14 @@
 ---
 # 专业技能
 * 熟悉vue2.x全家桶
+* 熟悉vue3.0
 * 熟练运用elelement-ui , vant , antd-design等组件库的应用
 * 2次封装组件
 * 熟悉Typescript
 * 熟悉react全家桶。
 * 熟练使用mock.js模拟后台接口数据，实现前后端分离开发。
 * 熟练使用git
-* 了解过koa,egg，用egg写过接口，增删改查过docker里面的数据库。
+* 了解过koa,egg，用egg写过接口，增删改查过docke容器里面的数据库。
 * 了解过docker。
 * 熟悉webpack打包，以及项目优化。
 ---
